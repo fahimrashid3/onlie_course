@@ -14,15 +14,17 @@ const Courses = () => {
         .then(data=>setCourses(data))
     },[])
     return (
-        <div>
+        <div className="w-2/3 mx-10 ">
             <h1 className="text-4xl">Course :{courses.length}</h1>
-            {
+           <div className="grid grid-cols-3 gap-5 justify-center">
+           {
                 courses.map(course=> <Course
                     key={course.id}
                     course={course}
             
                 ></Course>)
             }
+           </div>
             
         </div>
     );
