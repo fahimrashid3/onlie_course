@@ -1,11 +1,11 @@
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 
 import { useEffect } from "react";
 import { useState } from "react";
 import Course from "../Course/Course";
 
-const Courses = () => {
+const Courses = ({manageSelectedCourse,manageCourseTime}) => {
 
     const [courses ,setCourses]=useState([])
     useEffect(()=>{
@@ -15,10 +15,12 @@ const Courses = () => {
     },[])
     return (
         <div className="w-2/3 mx-10 ">
-            <h1 className="text-4xl">Course :{courses.length}</h1>
+            <h1 className="text-4xl my-5">Course Available : {courses.length}</h1>
            <div className="grid grid-cols-3 gap-5 justify-center">
            {
                 courses.map(course=> <Course
+                    manageSelectedCourse={manageSelectedCourse}
+                    manageCourseTime={manageCourseTime}
                     key={course.id}
                     course={course}
             
@@ -29,8 +31,8 @@ const Courses = () => {
         </div>
     );
 };
-// Courses.propTypes={
-    
-// }
+Courses.propTypes={
+    manageSelectedCourse:PropTypes.func
+}
 
 export default Courses;

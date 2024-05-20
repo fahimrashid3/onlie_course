@@ -3,7 +3,7 @@
         "id": "4d5e6f",
         "course_name": "Introduction to Python",
         "course_img": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
-        "price": "$49.99",
+        "price": "49.99",
         "credit_time": 8,
         "course_details": "Learn the basics of Python programming, including syntax, data types, and control structures."
     },
@@ -11,7 +11,7 @@
         "id": "7g8h9i",
         "course_name": "Web Development Bootcamp",
         "course_img": "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2",
-        "price": "$99.99",
+        "price": "99.99",
         "credit_time": 10,
         "course_details": "Master front-end and back-end web development with HTML, CSS, JavaScript, and Node.js."
     },
@@ -19,7 +19,7 @@
         "id": "0j1k2l",
         "course_name": "Data Science Essentials",
         "course_img": "https://images.unsplash.com/photo-1519377345644-937ef9754740",
-        "price": "$79.99",
+        "price": "79.99",
         "credit_time": 9,
         "course_details": "Discover the fundamentals of data science, including data analysis, visualization, and machine learning."
     },
@@ -27,7 +27,7 @@
         "id": "3m4n5o",
         "course_name": "Graphic Design for Beginners",
         "course_img": "https://images.unsplash.com/photo-1533750349088-cd871a92f312",
-        "price": "$59.99",
+        "price": "59.99",
         "credit_time": 7,
         "course_details": "Learn the principles of graphic design, including typography, color theory, and layout techniques."
     },
@@ -35,7 +35,7 @@
         "id": "6p7q8r",
         "course_name": "Digital Marketing 101",
         "course_img": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
-        "price": "$69.99",
+        "price": "69.99",
         "credit_time": 8,
         "course_details": "Understand the basics of digital marketing, including SEO, social media marketing, and email campaigns."
     },
@@ -43,7 +43,7 @@
         "id": "9s0t1u",
         "course_name": "Introduction to Blockchain",
         "course_img": "https://images.unsplash.com/photo-1518770660439-4636190af475",
-        "price": "$89.99",
+        "price": "89.99",
         "credit_time": 10,
         "course_details": "Explore the concepts of blockchain technology, its applications, and how it is transforming industries."
     },
@@ -51,7 +51,7 @@
         "id": "2v3w4x",
         "course_name": "Photography Basics",
         "course_img": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
-        "price": "$39.99",
+        "price": "39.99",
         "credit_time": 6,
         "course_details": "Learn the essentials of photography, including camera settings, composition, and lighting techniques."
     },
@@ -59,7 +59,7 @@
         "id": "5y6z7a",
         "course_name": "Financial Accounting",
         "course_img": "https://images.unsplash.com/photo-1519377345644-937ef9754740",
-        "price": "$79.99",
+        "price": "79.99",
         "credit_time": 9,
         "course_details": "Gain an understanding of financial accounting principles, financial statements, and reporting standards."
     },
@@ -67,7 +67,7 @@
         "id": "8b9c0d",
         "course_name": "Project Management Fundamentals",
         "course_img": "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2",
-        "price": "$69.99",
+        "price": "69.99",
         "credit_time": 7,
         "course_details": "Learn the basics of project management, including planning, execution, monitoring, and closure of projects."
     }
